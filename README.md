@@ -1,6 +1,6 @@
 # BC Front End Test
 
-This is built with AngularJs and Node.js. 
+This is built with jQuery and Node.js and some pure hardcoded JavaScript. 
 
 Once you cloned it, you run NPM install in your terminal first. 
 
