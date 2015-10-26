@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+	<meta charset="utf-8">
+	<title>BC Front End Test</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- AngularJS -->
+	<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.5/angular.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.5/angular-route.min.js"></script>
+	<script src="main.js"></script>
+	<script type="text/javascript" src="./controller/controller.js"></script>
+	<!-- BootStrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<!-- jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="./css/custom.css">
+	<!-- JavaScript -->
+	<script type="text/javascript" src="./js/custom.js"></script>
+	<!-- Roboto Font -->
+	<link rel="stylesheet" type="text/css" href="http://www.google.com/fonts#UsePlace:use/Collection:Roboto">
+</head>
+<body>
+	<nav class="navbar navbar-default">
+	  <div class="container-fluid">
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a id="white_out" class="navbar-brand" href="#">My books</a>
+	    </div>
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	      <ul class="nav navbar-nav">
+	      </ul>
+	    </div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid -->
+	</nav>
+	<div class="header-bottom">
+		<ul>
+			<li><p>El Pooch</p></li>
+			<li><p>The Flight</p></li>
+			<li><p>Top 10 Australian Beaches</p></li>
+		</ul>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<div class="boxes">
+					<div class="content">
+						<h3 class="pink">Welcome back!</h3>
+						<p>It's been awhile.</p>
+						<p>Read any books lately?</p>
+						<hr>
+						<ul>
+							<li><a class="black_font" href="">NO</a></li>
+							<li><a class="orange_font" href="">YES</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="boxes">
+					<div class="small_pic block">
+						<img src="./images/dog.jpg">
+					</div>
+					<div class="content_sm block">
+						<h3>El Pooch</h3>
+						<p class="grey_font">By Alex Nelson</p>
+						<hr>
+						<ul>
+							<li><a class="black_font" href="">FREE SAMPLE</a></li>
+							<li><a class="orange_font" href="">REVIEW</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="boxes">
+					<div class="small_pic block">
+						<img src="./images/flight.png">
+					</div>
+					<div class="content_sm block">
+						<h3>The Flight</h3>
+						<p class="grey_font">By Scott Masterson</p>
+						<hr>
+						<ul>
+							<li><a class="black_font" href="">FREE SAMPLE</a></li>
+							<li><a class="orange_font" href="">REVIEW</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="boxes">
+					<div class="big_pic">
+						<img src="./images/house.jpeg">
+						<h2 class="text">Top 10 Australian beaches</h2>
+					</div>
+					<div class="content">
+						<p class="grey_font">Number 10</p>
+						<p>Whitehaven Beach</p>
+						<p>Whitsundy Island, Whitsunday Islands</p>
+						<hr>
+						<ul>
+							<li><a class="black_font" href="">SHARE</a></li>
+							<li><a class="orange_font" href="">EXPLORE</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
